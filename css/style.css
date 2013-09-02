@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #463333;
+  margin: 20px;
+}
+
+#dripComplate {
+  opacity: 0.0;
+  -webkit-transition: all 1s ease-in-out;
+}
+
+#dripComplate.show {
+  opacity: 1.0;
+}
+
+.step {
+  -webkit-transition: all 1.5s ease-in-out;
+  opacity: 0.2;
+}
+
+.step.current {
+  opacity: 1.0;
+}
